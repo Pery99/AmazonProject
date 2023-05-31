@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <title>EazyGet</title>
+  </head>
+  <body>
+    <!-- Nav -->
+    <nav>
+      <div class="nav-content">
+        <div class="icon-logo">
+          <a href="index.html"
+            ><img
+              src="/images/amazon-mobile-logo-white.png"
+              alt=""
+              class="logo-img"
+          /></a>
+        </div>
+        <div class="search">
+          <input
+            class="search-inp"
+            type="text"
+            name=""
+            id=""
+            placeholder="Search EazyGet"
+          />
+          <button class="ic-search">
+            <img
+              src="icon/search_FILL0_wght400_GRAD0_opsz48.png"
+              alt=""
+              class="srch-icon"
+            />
+          </button>
+        </div>
+        <img class="icon js-nav-btn" src="/images/hamburger-menu.png" alt="" />
+      </div>
+
+      <div class="dropdown">
+        <div class="dropdown-cnt">
+          <a href="" class="return">Return and Orders</a>
+          <a href="cart.html" class="carts"
+            >Carts (<span class="cart-quan">1</span>)</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <div class="products-container"></div>
+    <script src="data/cart.js"></script>
+    <script src="app.js"></script>
+    <script src="data/products.js"></script>
+    <script src="home.js"></script>
+  </body>
+</html>

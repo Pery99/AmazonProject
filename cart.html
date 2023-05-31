@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/stylesheets/cart.css" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-content">
+        <div class="icon-logo">
+          <a href="index.html"
+            ><img
+              src="/images/amazon-mobile-logo-white.png"
+              alt=""
+              class="logo-img"
+          /></a>
+        </div>
+        <div class="search">
+          <h3>Checkout</h3>
+        </div>
+        <img
+          class="icon js-nav-btn"
+          src="/icon/checkout-lock-icon.png"
+          alt=""
+        />
+      </div>
+    </nav>
+    <div class="review-container">
+      <h2 class="heading">Review your Order</h2>
+      <div class="review-content">
+        <h3>Order summary</h3>
+        <div class="review-table">
+          <div class="item-row">
+            <div>Items (1):</div>
+            <div>$20.98</div>
+          </div>
+
+          <div class="shipping-row">
+            <div>Shipping & handling:</div>
+            <div>$2.98</div>
+          </div>
+
+          <div class="before-tax-row">
+            <div>Total before tax:</div>
+            <div class="bb">$20.90</div>
+          </div>
+
+          <div class="tax-row">
+            <div>Estimated tax (10%):</div>
+            <div>$2.98</div>
+          </div>
+
+          <div class="total-row">
+            <div class="order-total-text">Order total:</div>
+            <div>$23.55</div>
+          </div>
+        </div>
+        <button class="proceed">Place your order</button>
+      </div>
+    </div>
+
+    <div class="product-main-container">
+      <div class="product-content">
+        <p style="
+        color: rgb(0, 118, 0);
+        font-weight: bold;
+        font-size: 18px;" 
+        class="shipping-fee"
+        ">Delivery date: Wednesday, June 7</p>
+        <div class="product-container">
+          <img
+            width="100px"
+            src="/images/intermediate-composite-basketball.jpg"
+            alt=""
+          />
+          <div class="item-details">
+            <p style="font-weight: bold;">Intermediate Size Basketball</p>
+            <div class="product-price">$20.98</div>
+            <div class="edit">
+              <p>Quantity: 1</p>
+              <p class="update">Update</p>
+              <p class="delete">Delete</p>
+            </div>
+          </div>
+        </div>
+        <div class="delivery-opt-container">
+          <p>Choose a delivery option</p>
+          <div class="delivery-date">
+            <div class="delivery-opt">
+              <input type="radio" name="opt" id="opt" />
+              <label for="opt" class="option">
+                <p class="date">Wednesday, June 7</p>
+                <p class="shipping-fee">FREE Shipping</p>
+              </label>
+            </div>
+
+            <div class="delivery-opt">
+              <input type="radio" name="opt" id="opt" />
+              <label for="opt" class="option">
+                <p class="date">Wednesday, June 7</p>
+                <p class="shipping-fee">$2.56 - Shipping</p>
+              </label>
+            </div>
+
+            <div class="delivery-opt">
+              <input type="radio" name="opt" id="opt" />
+              <label for="opt" class="option">
+                <p class="date">Wednesday, June 7</p>
+                <p class="shipping-fee">$4.90 - Shipping</p>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="data/cart.js"></script>
+  </body>
+</html>

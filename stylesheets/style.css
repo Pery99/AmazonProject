@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  color: white;
+  padding: 10px 20px;
+  background-color: rgb(19, 25, 33);
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-logo {
+  margin-right: 10px;
+}
+.logo-img {
+  width: 35px;
+  vertical-align: middle;
+}
+.logo-img:hover{
+  border: 1px solid white;
+  padding: .5px;
+}
+.srch-icon,
+.icon {
+  width: 30px;
+  cursor: pointer;
+}
+.icon {
+  margin-left: 10px;
+  width: 20px;
+}
+.search {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+}
+.search-inp {
+  flex: 5;
+  border: none;
+  padding: 8px;
+  font-size: 15px;
+  border-left: none;
+  background: transparent;
+  outline: none;
+}
+.cart-quan {
+  font-weight: bold;
+  color: rgb(255, 183, 50);
+}
+.ic-search {
+  border: none;
+  background-color: rgb(254, 189, 105);
+  padding: 2.5px 8px;
+  font-size: bold;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.dropdown {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 13px 0px;
+  transition: 0.8s;
+}
+.dropdown.active {
+  display: flex;
+}
+.dropdown-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+.return,
+.carts {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.products-container {
+  margin: 15px 40px;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 20px 0;
+}
+.product-img {
+  width: 150px;
+  align-self: center;
+}
+.product-title {
+  font-size: 25px;
+}
+.ratings {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.rating {
+  width: 100px;
+}
+.count {
+  font-size: 20px;
+}
+.price {
+  font-size: 23px;
+  font-weight: bold;
+}
+.add {
+  width: 100%;
+  background-color: rgb(255, 183, 50);
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.value {
+  width: 10%;
+  padding: 3px 0;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  outline: none;
+  cursor: pointer;
+}
