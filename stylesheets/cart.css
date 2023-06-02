@@ -20,10 +20,10 @@ nav {
 .icon-logo {
   margin-right: 10px;
 }
-.logo-img:hover{
+.logo-img:hover {
   border: 1px solid white;
   padding: 2px;
-  transition: .5s;
+  transition: 0.5s;
 }
 .logo-img {
   width: 35px;
@@ -67,10 +67,11 @@ nav {
 .before-tax-row,
 .tax-row,
 .total-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: 50px 50px;
   margin: 0;
   justify-content: space-between;
-  gap: 200px;
+  align-items: center;
   color: rgb(33, 33, 33);
 }
 .item-row {
@@ -85,7 +86,7 @@ nav {
 
 .tax-row {
   margin: 0 0 10px 0;
-  border-bottom: 2px solid rgb(222, 222, 222);
+  border-bottom: 1px solid rgb(222, 222, 222);
   padding-bottom: 10px;
 }
 .total-row {
@@ -123,8 +124,11 @@ nav {
 }
 .product-container {
   margin: 20px 0;
-  display: flex;
+  display: grid;
+  grid-template-columns: 100px 1fr;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 .item-details {
   display: flex;
@@ -150,30 +154,28 @@ nav {
   font-weight: bold;
   color: rgb(177, 39, 4);
 }
-.delivery-opt-container{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.delivery-opt-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
-.delivery-opt{
+.delivery-opt {
   display: flex;
   gap: 10px;
   margin-bottom: 10px;
   align-items: center;
 }
-.option{
+.option {
   display: flex;
   flex-direction: column;
   gap: 5px;
   justify-content: center;
-
 }
-.date{
+.date {
   color: rgb(0, 118, 0);
   font-weight: bold;
 }
-.shipping-fee{
+.shipping-fee {
   font-size: 15px;
   color: rgb(120, 120, 120);
-
 }

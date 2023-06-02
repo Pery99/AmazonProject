@@ -9,7 +9,7 @@ nav {
   top: 0;
   z-index: 999;
   color: white;
-  padding: 10px 20px;
+  padding: 10px;
   background-color: rgb(19, 25, 33);
 }
 .nav-content {
@@ -35,7 +35,7 @@ nav {
 }
 .icon {
   margin-left: 10px;
-  width: 20px;
+  width: 25px;
 }
 .search {
   flex: 3;
@@ -104,7 +104,7 @@ nav {
   align-self: center;
 }
 .product-title {
-  font-size: 25px;
+  font-size: 20px;
 }
 .ratings {
   display: flex;
@@ -118,7 +118,7 @@ nav {
   font-size: 20px;
 }
 .price {
-  font-size: 23px;
+  font-size: 18px;
   font-weight: bold;
 }
 .add {
@@ -131,7 +131,7 @@ nav {
   cursor: pointer;
 }
 .value {
-  width: 10%;
+  width: 15%;
   padding: 3px 0;
   border-radius: 10px;
   background-color: whitesmoke;
